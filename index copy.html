@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="menu-toggle">☰</div>
+    <script>
+        const toggle = document.getElementById("menu-toggle");
+        const nav = document.querySelector(".nav-links");
+      
+        toggle.addEventListener("click", () => {
+          nav.classList.toggle("active");
+        });
+      </script>
+      
+
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h1> I'm <span>Md.Abu Bakor</span></h1>
+            <p>I'm passionate about Software Engineer.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="Abu Bakor.png" alt="My Picture">
+            <p>Hello! I'm Abu Bakor.I'm a 2nd-year Computer Science and Engineering (CSE) student with a strong interest in Competitive Programming and Artificial Intelligence. I've participated in many hackathons, where I collaborated with teams to build creative and practical tech solutions. My passion for software development drives me to learn new technologies and solve complex problems. I'm particularly fascinated by the potential of AI to transform industries, and I’m actively exploring its concepts and real-world applications. My goal is to become a skilled Software Engineer with a focus on building impactful, intelligent systems.
+
+                .</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Competitive Programming</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Go explorer</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <div class="project">
+            <h2>A login form</h2>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+            <a href="file.html" class=" btn ">View Project</a>
+            
+        </div>
+        <div class="project">
+            <h2>A Research Website</h2>
+            <a href="https://sites.google.com/d/1hHjdslgkFUniosrD_kTrSQ65-21HrJzR/p/1xMgM6f8Ko35AQD5JvkfSGgKDdURMBz4f/edit" class=" btn ">View Project</a>
+            
+        </div>
+        <div class="project">
+            <h2>A E-commerce site</h2>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+            <a href="product.html" class=" btn ">View Project</a>
+            
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="*******" required>
+            <input type="email" name="email" placeholder="*********@gmail.com" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/bakorish" target="https://github.com/bakorish">GitHub</a>
+            <a href="https://www.linkedin.com/in/md-abu-bakor-995074253/" >LinkedIn</a>
+            <a href="https://www.facebook.com/mdabu.bokor.9041083">Facebook</a>
+        </div>
+    </footer>
+
+</body>
+</html>
